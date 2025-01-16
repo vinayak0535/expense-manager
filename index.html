@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+
+<body>
+    <div class="heading">
+        <div class="title">
+            <h2><i class="fa-solid fa-wallet"></i>Expense Manager</h2>
+        </div>
+        <div class="expense">
+            <p>Total Expense</p>
+            <h3 id="total">₹00.00</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="add-expense">
+
+            <div>
+            <p>Description</p>
+            <input type="text" En id="description">
+        </div>
+        <div>
+            <p>Amount(₹)</p>
+            <input type="number" name="" id="price">
+        </div>
+        <div>
+            <p>Category</p>
+            <select name="" id="categories">
+                <option value="Food">Food</option>
+                <option value="Transportation">Transportation</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Bills">Bills</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <button type="button" id="addExpense"><i class="fa-regular fa-plus"></i>Add Expense</button>
+
+        </div>
+
+        <div class="expense-distribution">
+            <h3>Expense Distribution</h3>
+
+            <canvas id="expenseChart" width="300" height="300"></canvas>
+        </div>
+
+     
+        </div>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="expenseTable">
+
+            </tbody>
+        </table>
+       
+
+            <script src="script.js"></script>
+
+</body>
+
+</html>
