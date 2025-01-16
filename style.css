@@ -160,4 +160,16 @@ canvas{
     .expense-distribution{
         margin-top: 50px;
     }
+    table{
+        width: 100%;
+        overflow: none;
+        margin-inline: 10px;
+        font-size: 16px;
+    }
+
+    th{
+        font-weight: 500;
+    }
+
+    
 }
