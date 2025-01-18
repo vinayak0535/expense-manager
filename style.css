@@ -163,12 +163,15 @@ canvas{
     table{
         width: 100%;
         overflow: none;
-        margin-inline: 10px;
+        margin-inline: 0px;
         font-size: 16px;
     }
 
     th{
         font-weight: 500;
+    }
+      .add-expense{
+        flex-basis: 100%;
     }
 
     
