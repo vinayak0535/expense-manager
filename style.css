@@ -173,6 +173,9 @@ canvas{
       .add-expense{
         margin: 10px;
     }
+    table {
+    writing-mode: vertical-lr; 
+    }
 
     
 }
