@@ -174,8 +174,21 @@ canvas{
         margin: 10px;
     }
     table {
-    overflow-x:auto; 
+    overflow:auto; 
     }
+
+    table{
+    padding: 5px;
+}
+
+tr{
+    text-align: center;
+    
+}
+
+table td{
+    padding: 10px;
+}
 
     
 }
