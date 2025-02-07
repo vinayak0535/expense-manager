@@ -174,7 +174,7 @@ canvas{
         margin: 10px;
     }
     table {
-    writing-mode: vertical-lr; 
+    overflow-x:auto; 
     }
 
     
